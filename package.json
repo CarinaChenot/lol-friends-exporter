@@ -1,0 +1,23 @@
+{
+  "name": "lol-friends-exporter",
+  "version": "1.0.0",
+  "description": "Export your League of Legends friends list to a CSV file",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "csv-stringify": "^6.5.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.3.2"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "trailingComma": "all"
+  }
+}
