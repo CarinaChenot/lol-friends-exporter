@@ -1,0 +1,9 @@
+{
+  "tasks": {
+    "export": "deno run --allow-read=/Applications/League\\ of\\ Legends.app --allow-net=static.developer.riotgames.com,127.0.0.1 --allow-env=HOME --allow-write=$HOME/Downloads main.ts"
+  },
+  "imports": {
+    "@std/csv": "jsr:@std/csv@^1.0.6",
+    "@std/encoding": "jsr:@std/encoding@^1.0.10"
+  }
+}
